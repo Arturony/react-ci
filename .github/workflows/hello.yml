@@ -14,4 +14,4 @@ jobs:
           echo "Hello ISIS3710"
       - name: Get Date
         run: |
-          date --date = '%A %d %B %Y'    
+          date -u +'%A %d %B %Y'    
